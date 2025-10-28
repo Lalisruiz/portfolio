@@ -32,8 +32,8 @@ portifolio/
 ├── style.css              # Estilos globais
 ├── script.js              # Funcionalidades JavaScript
 ├── assets/
-│   ├── img/              # Imagens do site
-│   └── resume/           # Currículo em PDF
+│   ├── images/              # Imagens do site
+│   └── videos/           # videos do site
 └── README.md
 ```
 
@@ -68,4 +68,5 @@ portifolio/
 ---
 
 Desenvolvido por Larissa Ruiz
+
 
