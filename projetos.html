@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Larissa Ruiz | Projetos</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+</head>
+
+<body>
+    <!-- Fundo animado com estrelas -->
+    <div class="stars-background" id="starsBackground"></div>
+
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">{Portfólio}</h1>
+            <ul class="nav-links">
+                <li><a href="index.html#hero">Início</a></li>
+                <li><a href="index.html#about">Sobre</a></li>
+                <li><a href="index.html#skills">Habilidades</a></li>
+                <li><a href="index.html#testimonials">Depoimentos</a></li>
+                <li><a href="projetos.html" class="active">Projetos</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li><a href="index.html#contact">Contato</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Projetos -->
+    <section id="projects" class="page-section">
+        <h2 class="section-title fade-in">Meus Projetos</h2>
+        <p class="section-subtitle fade-in">Projetos desenvolvidos que demonstram minhas habilidades técnicas e capacidade de entrega.</p>
+
+        <!-- Grid de Projetos 2x2 -->
+        <div class="projects-grid-page">
+            <!-- Projeto 1: Nexo Seguros -->
+            <div class="project-item-page fade-in-up" data-delay="0.1s">
+                <div class="project-media-page">
+                    <video class="project-video-page" autoplay muted loop playsinline>
+                        <source src="assets/videos/video_nexo.mp4" type="video/mp4">
+                        <!-- Fallback para navegadores que não suportam vídeo -->
+                        <div class="project-preview-placeholder-page">
+                            <i class="fas fa-shield-alt"></i>
+                            <p>Nexo Seguros</p>
+                        </div>
+                    </video>
+                </div>
+                <div class="project-info-page">
+                    <h3 class="project-name-page">Nexo Seguros</h3>
+                    <p class="project-description-page">
+                        Plataforma de gerenciamento de seguros automotivos com funcionalidades para cadastro, atualização, exclusão e consulta de veículos e planos de seguro. Sistema completo com autenticação, dashboards exclusivos para clientes e administradores, e documentação profissional com Swagger.
+                    </p>
+                    <div class="project-tech-page">
+                        <span class="tech-tag-page">NestJS</span>
+                        <span class="tech-tag-page">React</span>
+                        <span class="tech-tag-page">TypeScript</span>
+                        <span class="tech-tag-page">PostgreSQL</span>
+                        <span class="tech-tag-page">API REST</span>
+                        <span class="tech-tag-page">Swagger</span>
+                        <span class="tech-tag-page">JWT</span>
+                    </div>
+                    <div class="project-links-page">
+                        <a href="https://nexoseguro.netlify.app/" target="_blank" class="project-link-page primary">
+                            <i class="fas fa-external-link-alt"></i>Ver Aplicação
+                        </a>
+                        <a href="https://github.com/Grupo-05-Turma-JavaScript-08/nexo_front" target="_blank" class="project-link-page">
+                            <i class="fab fa-github"></i>Front-End
+                        </a>
+                        <a href="https://github.com/Grupo-05-Turma-JavaScript-08/nexo_back" target="_blank" class="project-link-page">
+                            <i class="fab fa-github"></i>Back-End
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 2: E-commerce Moda Fitness -->
+            <div class="project-item-page fade-in-up" data-delay="0.2s">
+                <div class="project-media-page">
+                    <div class="project-icon-placeholder-page ecommerce-theme">
+                        <div class="icon-container">
+                            <i class="fas fa-shopping-bag"></i>
+                            <i class="fas fa-dumbbell"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info-page">
+                    <h3 class="project-name-page">E-commerce Moda Fitness</h3>
+                    <p class="project-description-page">
+                        Sistema de gerenciamento de produtos para e-commerce desenvolvido em TypeScript com foco em Programação Orientada a Objetos. Aplicação back-end com arquitetura modular, implementando padrões de design, CRUD completo e seguindo boas práticas de clean code e SOLID.
+                    </p>
+                    <div class="project-tech-page">
+                        <span class="tech-tag-page">TypeScript</span>
+                        <span class="tech-tag-page">Node.js</span>
+                        <span class="tech-tag-page">MySQL</span>
+                        <span class="tech-tag-page">POO</span>
+                        <span class="tech-tag-page">Clean Code</span>
+                        <span class="tech-tag-page">SOLID</span>
+                    </div>
+                    <div class="project-links-page">
+                        <a href="https://github.com/Lalisruiz/projeto_final_bloco_01" target="_blank" class="project-link-page primary">
+                            <i class="fab fa-github"></i>Back-End
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 3: Sistema Bancário -->
+            <div class="project-item-page fade-in-up" data-delay="0.3s">
+                <div class="project-media-page">
+                    <div class="project-icon-placeholder-page banking-theme">
+                        <div class="icon-container">
+                            <i class="fas fa-university"></i>
+                            <i class="fas fa-credit-card"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-info-page">
+                    <h3 class="project-name-page">Sistema Bancário</h3>
+                    <p class="project-description-page">
+                        Aplicação console desenvolvida em TypeScript simulando operações bancárias completas. Implementa conceitos avançados de POO como herança, polimorfismo e encapsulamento para gerenciar diferentes tipos de contas, com operações de CRUD, transações financeiras e relatórios detalhados.
+                    </p>
+                    <div class="project-tech-page">
+                        <span class="tech-tag-page">TypeScript</span>
+                        <span class="tech-tag-page">Node.js</span>
+                        <span class="tech-tag-page">POO</span>
+                        <span class="tech-tag-page">Git</span>
+                        <span class="tech-tag-page">Terminal</span>
+                    </div>
+                    <div class="project-links-page">
+                        <a href="https://github.com/Lalisruiz/conta_bancaria/tree/main" target="_blank" class="project-link-page primary">
+                            <i class="fab fa-github"></i>Back-End
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Projeto 4: Marmitech -->
+            <div class="project-item-page fade-in-up" data-delay="0.4s">
+                <div class="project-media-page">
+                    <video class="project-video-page" autoplay muted loop playsinline>
+                        <source src="assets/videos/video_marmitech.mp4" type="video/mp4">
+                        <!-- Fallback para navegadores que não suportam vídeo -->
+                        <div class="project-preview-placeholder-page">
+                            <i class="fas fa-utensils"></i>
+                            <p>Marmitech</p>
+                        </div>
+                    </video>
+                </div>
+                <div class="project-info-page">
+                    <h3 class="project-name-page">Marmitech</h3>
+                    <p class="project-description-page">
+                        Aplicativo de delivery de marmitas criado para oferecer praticidade e sabor a um clique de distância. Desenvolvido pela equipe Code7 com cardápio digital interativo, sistema de pedidos online e interface intuitiva, unindo tecnologia e conveniência no setor de alimentação.
+                    </p>
+                    <div class="project-tech-page">
+                        <span class="tech-tag-page">TypeScript</span>
+                        <span class="tech-tag-page">React</span>
+                        <span class="tech-tag-page">Node.js</span>
+                        <span class="tech-tag-page">Tailwind CSS</span>
+                        <span class="tech-tag-page">HTML</span>
+                        <span class="tech-tag-page">Git</span>
+                    </div>
+                    <div class="project-links-page">
+                        <a href="https://marmitech.netlify.app/" target="_blank" class="project-link-page primary">
+                            <i class="fas fa-external-link-alt"></i>Aplicação
+                        </a>
+                        <a href="https://github.com/Grupo-05-Turma-JavaScript-08/marmitech_front" target="_blank" class="project-link-page">
+                            <i class="fab fa-github"></i>Front-End
+                        </a>
+                        <a href="https://github.com/Grupo-05-Turma-JavaScript-08/marmitech_back" target="_blank" class="project-link-page">
+                            <i class="fab fa-github"></i>Back-End
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Call to Action Final -->
+        <div class="projects-cta-final fade-in-up" data-delay="0.5s">
+            <div class="cta-content">
+                <h3 class="cta-title-final">Pronta para o próximo desafio</h3>
+                <p class="cta-description-final">Especializada em soluções completas, desde o backend até interfaces modernas e intuitivas.</p>
+                <a href="index.html#contact" class="btn btn-primary cta-button-final">
+                    <i class="fas fa-code"></i>Iniciar Projeto
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/Lalisruiz" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/larissa-r-ruiz/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/lalisruiz/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/551151990212" target="_blank" class="social-link whatsapp-business"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            
+            <p class="footer-copyright">© 2025 Larissa Ruiz. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Gerar estrelas animadas
+        function createStars() {
+            const starsContainer = document.getElementById('starsBackground');
+            const numberOfStars = 100;
+
+            for (let i = 0; i < numberOfStars; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+
+                // Posição aleatória
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+
+                // Tamanho aleatório
+                const size = Math.random() * 3 + 1;
+                star.style.width = size + 'px';
+                star.style.height = size + 'px';
+
+                // Delay aleatório para animação
+                star.style.animationDelay = Math.random() * 3 + 's';
+
+                starsContainer.appendChild(star);
+            }
+
+            // Criar estrelas cadentes
+            for (let i = 0; i < 3; i++) {
+                const shootingStar = document.createElement('div');
+                shootingStar.className = 'shooting-star';
+
+                shootingStar.style.left = Math.random() * 100 + '%';
+                shootingStar.style.top = Math.random() * 50 + '%';
+                shootingStar.style.animationDelay = Math.random() * 8 + 's';
+
+                starsContainer.appendChild(shootingStar);
+            }
+        }
+
+        // Inicializar quando a página carregar
+        document.addEventListener('DOMContentLoaded', createStars);
+    </script>
+
+    <!-- JavaScript para animações melhoradas -->
+    <script>
+        // Intersection Observer para animações na entrada
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -50px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const element = entry.target;
+                    
+                    // Adicionar classes de animação baseadas no delay
+                    if (element.dataset.delay) {
+                        setTimeout(() => {
+                            element.style.opacity = '1';
+                            element.style.transform = 'translateY(0)';
+                        }, parseFloat(element.dataset.delay) * 1000);
+                    } else {
+                        element.style.opacity = '1';
+                        element.style.transform = 'translateY(0)';
+                    }
+                }
+            });
+        }, observerOptions);
+
+        // Observar todos os elementos com fade-in-up
+        document.addEventListener('DOMContentLoaded', () => {
+            const fadeElements = document.querySelectorAll('.fade-in-up, .fade-in');
+            fadeElements.forEach(element => {
+                observer.observe(element);
+            });
+
+            // Efeito parallax suave nos cards
+            const cards = document.querySelectorAll('.project-item-page');
+            
+            cards.forEach(card => {
+                card.addEventListener('mousemove', (e) => {
+                    const rect = card.getBoundingClientRect();
+                    const x = e.clientX - rect.left;
+                    const y = e.clientY - rect.top;
+                    
+                    const centerX = rect.width / 2;
+                    const centerY = rect.height / 2;
+                    
+                    const rotateX = (y - centerY) / 20;
+                    const rotateY = (centerX - x) / 20;
+                    
+                    card.style.transform = `perspective(1000px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(0)`;
+                });
+                
+                card.addEventListener('mouseleave', () => {
+                    card.style.transform = 'perspective(1000px) rotateX(0deg) rotateY(0deg) translateZ(0)';
+                });
+            });
+
+            // Animação suave de entrada para CTAs
+            const ctaElements = document.querySelectorAll('.projects-cta, .projects-cta-bottom');
+            ctaElements.forEach((cta, index) => {
+                cta.style.opacity = '0';
+                cta.style.transform = 'translateY(30px)';
+                
+                setTimeout(() => {
+                    cta.style.transition = 'all 0.8s cubic-bezier(0.4, 0, 0.2, 1)';
+                    cta.style.opacity = '1';
+                    cta.style.transform = 'translateY(0)';
+                }, 200 + (index * 200));
+            });
+
+            // Efeito suave de entrada para botões CTA
+            const ctaButtons = document.querySelectorAll('.cta-button');
+            ctaButtons.forEach((button, index) => {
+                button.addEventListener('mouseenter', () => {
+                    button.style.transform = 'translateY(-2px) scale(1.02)';
+                });
+                
+                button.addEventListener('mouseleave', () => {
+                    button.style.transform = 'translateY(0) scale(1)';
+                });
+            });
+        });
+    </script>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

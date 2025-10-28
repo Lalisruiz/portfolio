@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Larissa Ruiz | Contato</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">{Portfólio}</h1>
+            <ul class="nav-links">
+                <li><a href="index.html#hero">Início</a></li>
+                <li><a href="index.html#about">Sobre</a></li>
+                <li><a href="index.html#skills">Habilidades</a></li>
+                <li><a href="index.html#testimonials">Depoimentos</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li><a href="#contact" class="active">Contato</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Contato -->
+    <section id="contact" class="page-section">
+        <h2 class="section-title fade-in">Entre em Contato</h2>
+        <p class="section-subtitle fade-in">Vamos conversar sobre seu projeto e como posso ajudar a torná-lo realidade. Seja como parceira em projetos freelancer ou integrante da sua equipe.
+        </p>
+
+        <div class="contact-grid">
+            <div class="contact-info fade-in-left">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>rrs.larissa@gmail.com</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Telefone</h3>
+                        <p>+55 (11) 5199-0212</p>
+                    </div>
+                </div>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Localização</h3>
+                        <p>São Paulo, Brasil</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="https://github.com/Lalisruiz" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/larissa-r-ruiz/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://www.instagram.com/lalisruiz/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+
+            <form class="contact-form fade-in-right" action="https://formspree.io/f/mdkpajoa" method="POST">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" placeholder="Seu nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="Seu email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Assunto</label>
+                    <input type="text" id="subject" name="subject" placeholder="Assunto da mensagem" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" placeholder="Sua mensagem" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/Lalisruiz" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/larissa-r-ruiz/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/lalisruiz/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/551151990212" target="_blank" class="social-link whatsapp-business"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            
+            <p class="footer-copyright">© 2025 Larissa Ruiz. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
