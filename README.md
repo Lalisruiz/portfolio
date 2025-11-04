@@ -65,13 +65,6 @@ portifolio/
 - Animações de scroll reveal
 - Botões de redes sociais
 
-
-## Contato
-
-- LinkedIn: [Larissa Ruiz](https://www.linkedin.com/in/larissa-ruiz/)
-- GitHub: [@Lalisruiz](https://github.com/Lalisruiz)
-- WhatsApp Business: [Enviar mensagem](https://wa.me/5511974065089)
-
 ---
 
 Desenvolvido por Larissa Ruiz
