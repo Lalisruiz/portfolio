@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Larissa Ruiz | Desenvolvedora</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+</head>
+
+<body>
+    <!-- Fundo animado com estrelas -->
+    <div class="stars-background" id="starsBackground"></div>
+    
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">{Portfólio}</h1>
+            <ul class="nav-links">
+                <li><a href="#hero">Início</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#skills">Habilidades</a></li>
+                <li><a href="#testimonials">Depoimentos</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="curriculo.html">Currículo</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Seção Hero -->
+    <section id="hero">
+        <div class="hero-content fade-in-left">
+            <h1 class="hero-title">Olá, sou <span data-text="Larissa Ruiz">Larissa Ruiz</span><br>Desenvolvedora
+                <span>Full Stack</span>
+            </h1>
+            <p class="hero-description">Apaixonada por tecnologia e aprendizado contínuo, transformo ideias em soluções digitais criativas e funcionais.</p>
+            <div class="hero-cta">
+                <a href="curriculo.html" class="btn btn-primary">Ver Currículo</a>
+                <a href="projetos.html" class="btn btn-primary">Ver Projetos</a>
+                <a href="#contact" class="btn btn-secondary">Fale Comigo</a>
+            </div>
+        </div>
+
+        <div class="hero-image fade-in-right">
+            <img src="assets/images/larissaruiz.jpg" alt="Larissa Ruiz - Desenvolvedora Full Stack" class="profile-photo">
+        </div>
+    </section>
+
+    <!-- Seção Sobre -->
+    <section id="about">
+        <div class="about-header">
+            <h2 class="section-title fade-in">Sobre Mim</h2>
+            <p class="section-subtitle fade-in">Transformo ideias em soluções digitais criativas e funcionais.</p>
+        </div>
+
+        <div class="about-grid no-image">
+
+            <div class="about-content fade-in-right">
+                <p class="about-text">Desenvolvedora Full Stack Júnior com background em Moda e atualmente cursando Análise e Desenvolvimento de Sistemas. Tenho experiência prática em JavaScript, TypeScript, React, Node.js, NestJS, HTML, CSS, Git, SQL, APIs REST, além de bancos de dados relacionais (SQL, MySQL, PostgreSQL) e não relacionais (MongoDB), com foco em desenvolvimento web full stack e integração de sistemas.</p>
+                
+                <p class="about-text">Ao longo de 12 anos no setor da moda, atuei em empresas como C&A, Riachuelo, Grupo Soma e Shein, liderando equipes e projetos em modelagem digital, estilo e planejamento de produção. Essa trajetória fortaleceu competências como liderança, metodologias ágeis, resolução de problemas, pensamento analítico, trabalho colaborativo e visão estratégica, que hoje aplico ao desenvolvimento de software.</p>
+                
+                <p class="about-text">Busco uma oportunidade como Desenvolvedora Full Stack Júnior, em ambientes colaborativos e dinâmicos, onde eu possa unir minha experiência multidisciplinar ao aprendizado contínuo em tecnologia para entregar soluções eficientes, escaláveis e inovadoras.</p>
+                
+                <p class="about-text" style="margin-top: 2rem; font-style: italic; color: var(--primary-color);">Vamos conversar? Entre em contato pelo menu ou pelas minhas redes sociais no rodapé.</p>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023 - 2026</div>
+                        <div class="timeline-title">Análise e Desenvolvimento de Sistemas</div>
+                        <div class="timeline-description">Universidade São Judas Tadeu</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2025</div>
+                        <div class="timeline-title">Bootcamp Full Stack JavaScript</div>
+                        <div class="timeline-description">Generation Brasil</div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-date">2023 - 2025</div>
+                        <div class="timeline-title">Specialist Pattern Maker</div>
+                        <div class="timeline-description">SHEIN</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Habilidades -->
+    <section id="skills">
+        <h2 class="section-title fade-in">Habilidades</h2>
+        <p class="section-subtitle fade-in">Tecnologias e ferramentas que domino para criar soluções digitais completas.
+        </p>
+
+        <div class="skills-container">
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fab fa-js"></i>
+                </div>
+                <h3 class="skill-name">JavaScript & TypeScript</h3>
+                <p>Desenvolvimento web dinâmico e interativo, incluindo tipado robusto com TypeScript para aplicações mais seguras e escaláveis.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="70"></div>
+                </div>
+                <div class="skill-percentage">70%</div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fab fa-java"></i>
+                </div>
+                <h3 class="skill-name">Java</h3>
+                <p>Programação orientada a objetos e desenvolvimento backend.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="20"></div>
+                </div>
+                <div class="skill-percentage">20%</div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fab fa-python"></i>
+                </div>
+                <h3 class="skill-name">Python</h3>
+                <p>Desenvolvimento back-end e automação.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="20"></div>
+                </div>
+                <div class="skill-percentage">20%</div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h3 class="skill-name">HTML & CSS</h3>
+                <p>Estruturação semântica e estilização com CSS3 e Tailwind CSS.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="70"></div>
+                </div>
+                <div class="skill-percentage">70%</div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fab fa-react"></i>
+                </div>
+                <h3 class="skill-name">ReactJS</h3>
+                <p>Desenvolvimento de interfaces modernas e responsivas.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="70"></div>
+                </div>
+                <div class="skill-percentage">70%</div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fab fa-node-js"></i>
+                </div>
+                <h3 class="skill-name">Node.js e NestJS</h3>
+                <p>Desenvolvimento back-end, APIs REST escaláveis e frameworks modernos.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="70"></div>
+                </div>
+                <div class="skill-percentage">70%</div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-database"></i>
+                </div>
+                <h3 class="skill-name">Bancos de Dados</h3>
+                <p>MySQL, PostgreSQL e MongoDB.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="70"></div>
+                </div>
+                <div class="skill-percentage">70%</div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fab fa-git-alt"></i>
+                </div>
+                <h3 class="skill-name">Git & GitHub</h3>
+                <p>Controle de versionamento e colaboração em equipe.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="75"></div>
+                </div>
+                <div class="skill-percentage">75%</div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3 class="skill-name">DevOps</h3>
+                <p>Docker, Kubernetes e computação em nuvem.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="45"></div>
+                </div>
+                <div class="skill-percentage">45%</div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-tasks"></i>
+                </div>
+                <h3 class="skill-name">Metodologias Ágeis</h3>
+                <p>Scrum, Kanban e PMI/PMBOK para gestão de projetos.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="80"></div>
+                </div>
+                <div class="skill-percentage">80%</div>
+            </div>
+
+            <div class="skill-card fade-in">
+                <div class="skill-icon">
+                    <i class="fas fa-clipboard-check"></i>
+                </div>
+                <h3 class="skill-name">Testes e Documentação</h3>
+                <p>Testes de APIs com Insomnia e Postman, documentação com Swagger.</p>
+                <div class="skill-level">
+                    <div class="skill-progress" data-percentage="75"></div>
+                </div>
+                <div class="skill-percentage">75%</div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Seção Depoimentos -->
+    <section id="testimonials">
+        <h2 class="section-title fade-in">Depoimentos</h2>
+        
+        <div class="testimonials-carousel">
+            <div class="testimonials-container">
+                <div class="testimonial-slide active">
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                Tive o prazer de trabalhar com a Larissa em projetos de desenvolvimento, e posso dizer que sua atenção aos detalhes e seu desejo de seguir padrões de qualidade fizeram grande diferença nas entregas. Larissa contribui de forma consistente para a organização e eficiência da equipe, sempre buscando soluções bem estruturadas e alinhadas às melhores práticas.
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Viviane Santos</h4>
+                            <p>Desenvolvedora Back-end Júnior</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                Trabalhar com a Larissa na equipe Code7 foi uma experiência muito positiva. Ela se destacou pela criatividade e capacidade de encontrar soluções inovadoras durante o desenvolvimento do projeto. Sempre atenta aos detalhes, trouxe ideias que melhoraram tanto a usabilidade quanto a qualidade do produto final, demonstrando um ótimo domínio técnico e visão de conjunto.
+                                <br><br>
+                                Além disso, a Larissa tem uma energia contagiante e uma postura colaborativa que faz toda diferença em equipe. Ela sabe ouvir, contribuir e incentivar o grupo a buscar o melhor resultado possível. Uma profissional talentosa, criativa e comprometida, com quem eu teria o prazer de trabalhar novamente.
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Felipe Alves</h4>
+                            <p>Desenvolvedor Full Stack Jr</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-slide">
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-content">
+                            <div class="quote-icon">
+                                <i class="fas fa-quote-left"></i>
+                            </div>
+                            <p class="testimonial-text">
+                                Trabalhar com a Larissa na equipe Code7 foi uma experiência inspiradora. Ela combina criatividade, organização e domínio técnico de forma natural, sempre contribuindo para que o time entregasse resultados de qualidade. Sua postura colaborativa e atenção aos detalhes fazem dela uma profissional completa e indispensável em qualquer projeto.
+                            </p>
+                        </div>
+                        <div class="testimonial-author">
+                            <h4>Matheus Pereira Xavier</h4>
+                            <p>Desenvolvedor Full Stack</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="carousel-controls">
+                <button class="carousel-btn prev" onclick="changeTestimonial(-1)">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-indicators">
+                    <span class="indicator active" onclick="currentTestimonial(1)"></span>
+                    <span class="indicator" onclick="currentTestimonial(2)"></span>
+                    <span class="indicator" onclick="currentTestimonial(3)"></span>
+                </div>
+                <button class="carousel-btn next" onclick="changeTestimonial(1)">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção Contato -->
+    <section id="contact">
+        <h2 class="section-title fade-in">Entre em Contato</h2>
+        <p class="section-subtitle fade-in">Vamos conversar sobre seu projeto e como posso ajudar a torná-lo realidade. Seja como parceira em projetos (freelancer) ou integrante da sua equipe (CLT).
+        </p>
+
+        <div class="contact-grid">
+            <div class="contact-info fade-in-left">
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Email</h3>
+                        <p>rrs.larissa@gmail.com</p>
+                    </div>
+                </div>
+
+                <a href="https://wa.me/551151990212" target="_blank" class="contact-card contact-card-whatsapp">
+                    <div class="contact-icon">
+                        <i class="fab fa-whatsapp"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>WhatsApp Business</h3>
+                        <p>+55 (11) 5199-0212</p>
+                    </div>
+                </a>
+
+                <div class="contact-card">
+                    <div class="contact-icon">
+                        <i class="fas fa-map-marker-alt"></i>
+                    </div>
+                    <div class="contact-details">
+                        <h3>Localização</h3>
+                        <p>São Paulo - SP, Brasil</p>
+                    </div>
+                </div>
+            </div>
+
+            <form class="contact-form fade-in-right" action="https://formspree.io/f/mdkpajoa" method="POST">
+                <!-- Campo oculto para evitar spam -->
+                <input type="hidden" name="_subject" value="Nova mensagem do portfólio">
+                <input type="hidden" name="_next" value="obrigada.html">
+                <input type="hidden" name="_captcha" value="false">
+                
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name" class="form-input" placeholder="Seu nome" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" class="form-input" placeholder="Seu email" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" class="form-textarea" placeholder="Sua mensagem" required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar Mensagem</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-social">
+                <a href="https://github.com/Lalisruiz" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/larissa-r-ruiz/" target="_blank" class="social-link"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.instagram.com/lalisruiz/" target="_blank" class="social-link"><i class="fab fa-instagram"></i></a>
+                <a href="https://wa.me/551151990212" target="_blank" class="social-link whatsapp-business"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            
+            <p class="footer-copyright">© 2025 Larissa Ruiz. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Gerar estrelas animadas
+        function createStars() {
+            const starsContainer = document.getElementById('starsBackground');
+            const numberOfStars = 150; // Aumentando quantidade de estrelas
+            
+            for (let i = 0; i < numberOfStars; i++) {
+                const star = document.createElement('div');
+                star.className = 'star';
+                
+                // Posição aleatória
+                star.style.left = Math.random() * 100 + '%';
+                star.style.top = Math.random() * 100 + '%';
+                
+                // Tamanho aleatório menor
+                const size = Math.random() * 3 + 1; // Tamanho de 1px a 4px
+                star.style.width = size + 'px';
+                star.style.height = size + 'px';
+                
+                // Delay aleatório para animação
+                star.style.animationDelay = Math.random() * 3 + 's';
+                
+                starsContainer.appendChild(star);
+            }
+            
+            // Criar estrelas cadentes
+            for (let i = 0; i < 3; i++) {
+                const shootingStar = document.createElement('div');
+                shootingStar.className = 'shooting-star';
+                
+                shootingStar.style.left = Math.random() * 100 + '%';
+                shootingStar.style.top = Math.random() * 50 + '%';
+                shootingStar.style.animationDelay = Math.random() * 8 + 's';
+                
+                starsContainer.appendChild(shootingStar);
+            }
+        }
+        
+        // Inicializar quando a página carregar
+        document.addEventListener('DOMContentLoaded', createStars);
+    </script>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>
